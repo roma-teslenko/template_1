@@ -9,7 +9,9 @@ body{
 .header{
 	width: 100%;
 	height: 100px;
-	background-color: #4C97A3;
+	background-color: rgba(76, 151, 163, 0.9);
+	position: fixed;
+	z-index: 2;
 }
 .nav h1{
 	font-family: 'Montserrat-Bold';
@@ -56,7 +58,7 @@ body{
 }
 #one p{
 	margin: 0;
-	padding-top: 70px;
+	padding-top: 120px;
 	text-align: center;
 	color: #e6e6e6;
 	font-family: 'Montserrat-Regular';
@@ -66,7 +68,7 @@ body{
 }
 #one button{
 	padding: 20px 60px;
-	top: calc(100% - 200px);
+	top: calc(100% - 150px);
 	right: calc(50% - 130px);
 	opacity: 0.8;
 	border: 3px solid rgb(254, 246, 230);
