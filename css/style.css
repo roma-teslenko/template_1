@@ -31,6 +31,9 @@ body{
 	text-transform: uppercase;
 	color: #bcd2d5;
 }
+.nav ul a{
+	text-decoration: none;
+}
 .nav ul li:hover{
 	color: #fff;
 }
@@ -43,7 +46,7 @@ body{
 	content: "/";
 	padding-right: 20px;
 }
-.one{
+#one{
 	width: 100%;
 	height: 500px;
 	background-image: url('../img/1.jpg');
@@ -51,7 +54,7 @@ body{
 	background-repeat: no-repeat;
 	position: relative;
 }
-.one p{
+#one p{
 	margin: 0;
 	padding-top: 70px;
 	text-align: center;
@@ -61,7 +64,7 @@ body{
 	font-size: 4em;
 	text-shadow: 3px 3px 5px black;
 }
-.one button{
+#one button{
 	padding: 20px 60px;
 	top: calc(100% - 200px);
 	right: calc(50% - 130px);
@@ -79,11 +82,11 @@ body{
 	font-family: 'Montserrat-Regular';
 	position: absolute;
 }
-.one button:hover{
+#one button:hover{
 	color: #000;
 	border: 3px solid #000;
 }
-.two{
+#two{
 	width: 100%;
 	height: 500px;
 	background-color: #FFFBF5;
@@ -119,19 +122,19 @@ body{
 	top: calc(100% - 200px);
 	right: calc(50% - 430px);
 }
-.two #imgOne{
+#two #imgOne{
 	padding: 25px;
 	float: left;
 }
-.two #imgTwo{
+#two #imgTwo{
 	padding: 25px;
 	float: left;
 }
-.two #imgThree{
+#two #imgThree{
 	padding: 25px;
 	float: left;
 }
-.three{
+#three{
 	width: 100%;
 	height: 500px;
 	background-color: #00d089;
@@ -148,7 +151,7 @@ body{
 	background-position: center;
 	position: absolute;
 }
-.three #lorem{
+#three #lorem{
 	margin-top: -30px;
 	padding-left: 200px;
 	padding-right: 200px;
@@ -160,7 +163,7 @@ body{
 	font-size: 20px;
 	text-shadow: 1px 1px 1px black;
 }
-.three #name{
+#three #name{
 	margin: 0;
 	padding-top: 40px;
 	padding-left: 310px;
@@ -171,7 +174,7 @@ body{
 	font-size: 2em;
 	text-shadow: 1px 1px 1px black;
 }
-.three img{
+#three img{
 	white-space: nowrap;
 	top: calc(5% + 60px);
 	right: calc(50% - 250px);

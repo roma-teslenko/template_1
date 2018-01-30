@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>template_1</title>
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div class="main">
 		<div class="header">
-				<div class="nav">
-					<h1>Black Sea</h1>
-						<ul>
-							<li>home</li>
-							<li>about me</li>
-							<li>portfolio</li>
-							<li>contact me</li>
-						</ul>
-				</div>
+			<div class="nav">
+				<h1>Black Sea</h1>
+				<ul>
+					<a href="javascript://0" onclick="slowScroll ('#one')">
+						<li>home</li>
+					</a>
+					<a href="javascript://0" onclick="slowScroll ('#three')">
+						<li>about me</li>
+					</a>
+					<a href="javascript://0" onclick="slowScroll ('#two')">
+						<li>portfolio</li>
+					</a>
+					<a href="javascript://0" onclick="slowScroll ('#contacts')">
+						<li>contact me</li>
+					</a>
+				</ul>
+			</div>
 		</div>
 		<div class="selection">
-			<div class="one">
+			<div id="one">
 				<p>we need the tonik of<br>wildness</p>
 				<button>read more</button>
 			</div>
-			<div class="two">
+			<div id="two">
 				<p id="pOne">At the same time that we are earnest to explore<br>& learn all things</p>
-				<p id="pTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ullam quibusdam earum repudiandae asperiores facere eos recusandae quidem, libero expedita neque atque eum nisi porro delectus, corporis voluptatibus reiciendis ipsam blanditiis molestias exercitationem ad, hic. A omnis dolore, sapiente laboriosam asperiores, placeat distinctio?</p>
+				<p id="pTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ullam quibusdam earum repudiandae asperiores facere eos recusandae quidem, libero expedita neque atque eum nisi porro delectus, corporis voluptatibus reiciendis ipsam blanditiis molestias
+					exercitationem ad, hic. A omnis dolore, sapiente laboriosam asperiores, placeat distinctio?</p>
 				<div class="icons">
 					<img id="imgOne" src="img/2.png" alt="a" align="middle" align="left">
 					<img id="imgTwo" src="img/3.png" alt="b" align="middle" align="right">
 					<img id="imgThree" src="img/4.png" alt="c" align="middle" align="right">
 				</div>
 			</div>
-			<div class="three">
+			<div id="three">
 				<div class="pictureOne"></div>
 				<div class="pictureTwo">
 					<p id="name">Nadin</p>
 					<img src="img/5.png" alt="e">
 				</div>
-				<p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quod dicta deserunt ut animi soluta voluptates culpa. Perferendis porro nihil dolore, dicta omnis enim minus incidunt laudantium facilis dolor mollitia similique recusandae quisquam hic voluptatum adipisci officiis aliquid, eius voluptas tenetur repudiandae expedita, excepturi! Consequatur magnam maxime animi sit, vitae consectetur repellat est eos. Ipsum dolores accusamus perspiciatis, voluptas alias.</p>
+				<p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quod dicta deserunt ut animi soluta voluptates culpa. Perferendis porro nihil dolore, dicta omnis enim minus incidunt laudantium facilis dolor mollitia similique recusandae quisquam hic
+					voluptatum adipisci officiis aliquid, eius voluptas tenetur repudiandae expedita, excepturi! Consequatur magnam maxime animi sit, vitae consectetur repellat est eos. Ipsum dolores accusamus perspiciatis, voluptas alias.</p>
 			</div>
 		</div>
 		<section id="contacts">
@@ -76,5 +88,8 @@
 			</div>
 		</section>
 	</div>
+	<script src="libs/bower_components/jquery/dist/jquery.js"></script>
+	<script src="js/main.js"></script>
 </body>
+
 </html>
